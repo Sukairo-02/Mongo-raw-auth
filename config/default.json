@@ -1,9 +1,14 @@
 {
 	"server": {
-		"port": 3000
+		"PORT": 3000
 	},
 
 	"db": {
-		"conStr": "blank"
+		"conStr": "mongodb+srv://Sukairo:basepass@lab4c.2zcnb.mongodb.net/lambda?retryWrites=true&w=majority"
+	},
+
+	"jwt": {
+		"access": "accessTokenSecret325346yt##$T",
+		"refresh": "refreshTokenSecret3y58rjhgn87"
 	}
 }
