@@ -22,7 +22,7 @@ class authClass {
 			if (user) {
 				return res
 					.status(403)
-					.json({ message: 'This email adress is already occupied!' })
+					.json({ message: 'This email address is already occupied!' })
 			}
 
 			const hashPass = await bcrypt.hash(req.body.password, 7)
